@@ -1,0 +1,19 @@
+D:\Andriod\platform-tools>adb --version
+Android Debug Bridge version 1.0.41
+Version 35.0.1-11580240
+Installed as D:\Andriod\platform-tools\adb.exe
+Running on Windows 10.0.22621
+
+D:\Andriod\platform-tools>adb devices
+List of devices attached
+92d18117        device
+
+D:\Andriod\platform-tools>adb logcat >logcat_logs.txt
+^C
+D:\Andriod\platform-tools>adb shell dmesg >dmesg_logs.txt
+dmesg: klogctl: Permission denied
+
+D:\Andriod\platform-tools>adb root
+adbd cannot run as root in production builds
+
+D:\Andriod\platform-tools>
